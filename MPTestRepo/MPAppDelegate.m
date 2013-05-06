@@ -12,10 +12,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-//	floobity doobity
-	// Insert code here to initialize your application
-	noop();
-	noop(); //BLEEP BLOOP BLEEPITY BLOOP HARDCORE FORKING ACTION
+
+	for (int i = 0; i <= 100; i++) {
+		NSMutableString *theString = [NSMutableString stringWithFormat:@"%i: ",i];
+		if (!(i % 2)) {
+			[theString appendString:@"Fizz"];
+		}
+		if (!(i % 3)) {
+			[theString appendString:@"Buzz"];
+		}
+		NSLog(@"%@", theString);
+	}
+
 }
 
 @end
