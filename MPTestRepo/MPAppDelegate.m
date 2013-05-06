@@ -14,6 +14,8 @@
 {
 //	floobity doobity
 	// Insert code here to initialize your application
+	noop();
+	noop(); //BLEEP BLOOP BLEEPITY BLOOP HARDCORE FORKING ACTION
 }
 
 @end
